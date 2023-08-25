@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    password: Vikash@98
+    url: jdbc:mysql://localhost:3306/buy
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+
+  security:
+    oauth2:
+      client:
+        registration:
+         google:
+          clientId: 401730519947-1ret4jdnmt1ufaup59n5g36jsrt7o70t.apps.googleusercontent.com
+          clientSecret: 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
+          scope:
+           - email
+           - profile
